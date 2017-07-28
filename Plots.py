@@ -14,4 +14,5 @@ print x[punto]
 plt.imshow(infile)
 plt.scatter(x[punto],y[punto])
 
-plt.show()
+plt.savefig('PuntoNemo.pdf')
+plt.close()
